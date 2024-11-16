@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.logo{
+    height:20vh;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+form h3{
+    color: #041e3a;
+}
+
+.logins{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;   
+}
+
+.schID{
+    display: flex;
+    background-color: #f6f6f1;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.schID input{
+    padding: 10px;
+    border: none;
+    background-color: #f6f6f1;
+    color: black;
+    outline: none;
+}
+
+.schID input::placeholder{
+    color:black ;
+    font-weight: bold;
+}
+
+.password{
+    display: flex;
+    padding: 5px;
+    background-color: #f6f6f1;
+    border-radius: 10px;
+}
+
+.password input{
+    padding:10px ;
+    border: none;
+    background-color: #f6f6f1;
+    outline: none;
+}
+
+.password input::placeholder{
+    color: black;
+    font-weight: bold;        
+}
+
+.log input{
+        padding: 10px;
+        border: none;
+        background-color: rgb(12, 87, 167);
+        color: white;
+        border-radius: 10px;
+        width: 15rem;
+        cursor: pointer;
+
+}
+
+..log input:hover{
+    background-color: rgb(31, 64, 99); 
+}
